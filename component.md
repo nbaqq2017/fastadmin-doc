@@ -209,8 +209,8 @@ $("#city-picker").on("cp:updated", function() {
 | 属性                | 描述                                                         | 示例                                 |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------ |
 | data-format         | 日期时间的格式，支持[Moment.js](https://momentjs.com/docs/#/displaying/format/)的格式 | data-format=" YYYY-MM-DD"            |
-| data-min-date       | 最小可选择的日期                                             | date-min-date="2011-10-01"           |
-| data-max-date       | 最大可选择的日期                                             | date-max-date="2046-10-01"           |
+| data-date-min-date       | 最小可选择的日期                                             | data-date-min-date="2011-10-01"           |
+| data-date-max-date       | 最大可选择的日期                                             | data-date-max-date="2046-10-01"           |
 | data-use-current    | 使用当前的日期时间                                           | data-use-current="true"              |
 | data-default-date   | 默认日期                                                     | data-default-date="2011-10-01"       |
 | data-disabled-dates | 禁用的日期组                                                 | data-disabled-dates="['2011-10-01']" |
